@@ -1,5 +1,7 @@
 // import { useEffect, useState } from 'react';
 
+import Link from 'next/link';
+
 const Footer = () => {
   //   const [visibleElements, setVisibleElements] = useState([false, false, false]);
 
@@ -47,11 +49,21 @@ const Footer = () => {
           <div>
             <h5>Информация</h5>
             <ul>
-              <li>О магазине</li>
-              <li>Наш блог</li>
-              <li>Доставка</li>
-              <li>Оплата</li>
-              <li>Контакты</li>
+              <li>
+                <Link href="/about">О магазине</Link>
+              </li>
+              <li>
+                <Link href="/blog">Наш блог</Link>
+              </li>
+              <li>
+                <Link href="/delivery-and-payment#delivery">Доставка</Link>
+              </li>
+              <li>
+                <Link href="/delivery-and-payment#payment">Оплата</Link>
+              </li>
+              <li>
+                <Link href="/contacts">Контакты</Link>
+              </li>
             </ul>
           </div>
           <div>
@@ -68,9 +80,15 @@ const Footer = () => {
           <div>
             <h5>Магазин</h5>
             <ul>
-              <li>Личный&nbsp;кабинет</li>
-              <li>Избранное</li>
-              <li>Корзина</li>
+              <li>
+                <Link href="/account">Личный&nbsp;кабинет</Link>
+              </li>
+              <li>
+                <Link href="/wishlist">Избранное</Link>
+              </li>
+              <li>
+                <Link href="/cart">Корзина</Link>
+              </li>
             </ul>
           </div>
         </div>

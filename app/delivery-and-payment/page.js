@@ -7,7 +7,7 @@ export default function DeliveryAndPayment() {
         и прозрачным. Пожалуйста, ознакомьтесь с вариантами доставки и способами
         оплаты, предоставленными ниже:
       </p>
-      <section>
+      <section id="delivery">
         <h2>Доставка:</h2>
         <p>
           Мы сотрудничаем с транспортной компанией СДЭК для обеспечения надежной
@@ -47,7 +47,7 @@ export default function DeliveryAndPayment() {
           </li>
         </ol>
       </section>
-      <section>
+      <section id="payment">
         <h2>Оплата:</h2>
         <p>
           Мы предоставляем разнообразные способы оплаты, чтобы обеспечить ваш
